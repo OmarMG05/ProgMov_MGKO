@@ -1,3 +1,9 @@
+/*
+    Marín González Kevin Omar
+    Programación Móvil 6NM61
+    Actividad 2. Funciones, Condicionales y Ciclos
+    */
+
 fun main() {
     println("Pruebas de esc PUNTO 1.")
     println("El area del rectangulo es: ${areaRect(90.0,40.0)} cm2")
