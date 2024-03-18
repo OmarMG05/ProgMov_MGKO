@@ -16,6 +16,4 @@ fun main() {
     // Prueba de clase Clss_International
     val viajeInternacional = Clss_International("Alemania", "Munich")
     viajeInternacional.cotizarPrecio(10)
-
-    // Puedes agregar más pruebas para otras funcionalidades
 }
