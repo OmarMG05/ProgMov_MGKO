@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Reto02MGKO</string>
+    <string name="bienvenida">Hola UPIICSA</string>
+    <string name="miNombre">Hola, soy Marín González Kevin Omar    :)</string>
+    <string name="accept_button">ACEPTAR</string>
+    <string name="button_clicked">Haz dado click al botón!</string>
+    <string name="user">Nombre(s)</string>
+    <string name="phone">Teléfono</string>
+    <string name="last_name">Apellidos</string>
+    <string name="email">Correo electrónico</string>
+    <string name="reto">Reto 02</string>
+</resources>
