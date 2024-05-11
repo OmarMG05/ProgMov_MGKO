@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/linear_layout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:layout_gravity="center"
+              tools:context=".MainActivity">
+
+    <!-- Borde superior morado con texto "testS04E1"-->
+    <TextView
+            android:id="@+id/txtViewEncabezado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/txtTitulo"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:background="@color/morado"
+            android:gravity="start"
+    />
+
+    <!-- Texto "Select your country" -->
+    <TextView
+            android:id="@+id/txtViewSelectYourCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/selectYourCountry"
+            android:textSize="22sp"
+            android:gravity="center"/>
+
+    <!-- Spinner "lista" desplegable de países -->
+    <Spinner
+            android:id="@+id/spinnerCountryList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"/>
+
+    <!-- Botón "Next" -->
+    <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtNext"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="300dp"
+            android:background="@color/morado"
+            android:textColor="@android:color/white"/>
+</LinearLayout>

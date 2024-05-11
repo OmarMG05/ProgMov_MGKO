@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">listasYSpinnersMGKO</string>
+    <string name="txtTitulo">testS04E1</string>
+    <string name="selectYourCountry">Select your Country</string>
+    <string name="txtNext">Next</string>
+
+    <string name="next_en">Next</string>
+    <string name="select_country_en">Select your country</string>
+
+    <!-- Strings en español -->
+    <string name="next_es">Siguiente</string>
+    <string name="select_country_es">Selecciona tu país</string>
+
+    <!-- Strings en portugués -->
+    <string name="next_pt">Próximo</string>
+    <string name="select_country_pt">Selecione o seu país</string>
+
+    <!-- Strings en francés -->
+    <string name="next_fr">Suivant</string>
+    <string name="select_country_fr">Sélectionnez votre pays</string>
+
+    <!-- Strings en alemán -->
+    <string name="next_de">Weiter</string>
+    <string name="select_country_de">Wählen Sie Ihr Land</string>
+
+    <!-- Strings en italiano -->
+    <string name="next_it">Avanti</string>
+    <string name="select_country_it">Seleziona il tuo paese</string>
+</resources>
