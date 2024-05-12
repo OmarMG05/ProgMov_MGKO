@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">recyclerViewMGKO</string>
+    <string name="txtTitulo">Mejores juegos (opinión propia)</string>
+
+    <!-- JUEGO 1 -->
+    <string name="nomJ1">God Of War</string>
+    <string name="catJ1">Acción-aventura Hack and slash</string>
+    <string name="clasJ1">18+</string>
+
+    <!-- JUEGO 2 -->
+    <string name="nomJ2">Elden Ring</string>
+    <string name="catJ2">RPG-acción-aventura</string>
+    <string name="clasJ2">18+</string>
+
+    <!-- JUEGO 3 -->
+    <string name="nomJ3">Grand Theft Auto V</string>
+    <string name="catJ3">Acción-aventura Mundo abierto</string>
+    <string name="clasJ3">18+</string>
+
+    <!-- JUEGO 4 -->
+    <string name="nomJ4">Cyberpunk 2077</string>
+    <string name="catJ4">RPG-acción-aventura Mundo abierto</string>
+    <string name="clasJ4">18+</string>
+
+    <!-- JUEGO 5 -->
+    <string name="nomJ5">Remnant From The Ashes</string>
+    <string name="catJ5">RPG-acción TPS</string>
+    <string name="clasJ5">16+</string>
+
+    <!-- JUEGO 6 -->
+    <string name="nomJ6">Red Dead Redemption 2</string>
+    <string name="catJ6">Acción-aventura Mundo abierto</string>
+    <string name="clasJ6">18+</string>
+
+    <!-- JUEGO 7 -->
+    <string name="nomJ7">Detroit: Become Human</string>
+    <string name="catJ7">Acción-aventura</string>
+    <string name="clasJ7">18+
+    </string>
+</resources>

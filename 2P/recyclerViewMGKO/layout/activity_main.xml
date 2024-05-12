@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:id="@+id/txtViewEncabezado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/txtTitulo"
+                android:textSize="12sp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-light"
+                android:background="@color/azul"
+                android:gravity="center"
+        />
+
+
+        <!-- Juego 1 -->
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guidelineJ1"
+                app:layout_constraintGuide_begin="44dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline2J1"
+                app:layout_constraintGuide_begin="84dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline3J1"
+                app:layout_constraintGuide_begin="118dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline4J1"
+                app:layout_constraintGuide_begin="172dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline5J1"
+                app:layout_constraintGuide_begin="193dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline6J1"
+                app:layout_constraintGuide_begin="16dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline7"
+                app:layout_constraintGuide_begin="122dp"
+                android:orientation="vertical"/>
+
+        <TextView
+                android:id="@+id/tvTituloJ1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/nomJ1"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline2J1"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guidelineJ1"/>
+
+        <TextView
+                android:id="@+id/tvCategoriaJ1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/catJ1"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline3J1"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline2J1"/>
+
+        <TextView
+                android:id="@+id/tvClasificacionJ1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/clasJ1"
+                app:layout_constraintBottom_toTopOf="@+id/guideline4J1"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+        <RatingBar
+                android:id="@+id/rbCalificacionJ1"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline4J1"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline3J1"/>
+
+        <ImageView
+                android:id="@+id/imgPortadaJ1"
+                android:layout_width="105dp"
+                android:layout_height="138dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline5J1"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline6J1"
+                app:srcCompat="@drawable/gow"/>
+
+        <!-- Juego 2 -->
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guidelineJ2"
+                app:layout_constraintGuide_begin="237dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline2J2"
+                app:layout_constraintGuide_begin="277dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline3J2"
+                app:layout_constraintGuide_begin="311dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline4J2"
+                app:layout_constraintGuide_begin="365dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline5J2"
+                app:layout_constraintGuide_begin="386dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline6J2"
+                app:layout_constraintGuide_begin="209dp"
+                android:orientation="horizontal"/>
+
+        <TextView
+                android:id="@+id/tvTituloJ2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/nomJ2"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline2J2"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guidelineJ2"/>
+
+        <TextView
+                android:id="@+id/tvCategoriaJ2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/catJ2"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline3J2"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline2J2"/>
+
+        <TextView
+                android:id="@+id/tvClasificacionJ2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/clasJ2"
+                app:layout_constraintBottom_toTopOf="@+id/guideline4J2"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+        <RatingBar
+                android:id="@+id/rbCalificacionJ2"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline4J2"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline3J2"/>
+
+        <ImageView
+                android:id="@+id/imgPortadaJ2"
+                android:layout_width="105dp"
+                android:layout_height="138dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline5J2"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline6J2"
+                app:srcCompat="@drawable/elden"/>
+
+        <!-- Juego 3 -->
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guidelineJ3"
+                app:layout_constraintGuide_begin="430dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline2J3"
+                app:layout_constraintGuide_begin="470dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline3J3"
+                app:layout_constraintGuide_begin="504dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline4J3"
+                app:layout_constraintGuide_begin="558dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline5J3"
+                app:layout_constraintGuide_begin="579dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline6J3"
+                app:layout_constraintGuide_begin="402dp"
+                android:orientation="horizontal"/>
+
+        <TextView
+                android:id="@+id/tvTituloJ3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/nomJ3"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline2J3"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guidelineJ3"/>
+
+        <TextView
+                android:id="@+id/tvCategoriaJ3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/catJ3"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline3J3"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline2J3"/>
+
+        <TextView
+                android:id="@+id/tvClasificacionJ3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/clasJ3"
+                app:layout_constraintBottom_toTopOf="@+id/guideline4J3"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+        <RatingBar
+                android:id="@+id/rbCalificacionJ3"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline4J3"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline3J3"/>
+
+        <ImageView
+                android:id="@+id/imgPortadaJ3"
+                android:layout_width="105dp"
+                android:layout_height="138dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline5J3"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline6J3"
+                app:srcCompat="@drawable/gtav"/>
+
+        <!-- Juego 4 -->
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guidelineJ4"
+                app:layout_constraintGuide_begin="623dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline2J4"
+                app:layout_constraintGuide_begin="663dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline3J4"
+                app:layout_constraintGuide_begin="697dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline4J4"
+                app:layout_constraintGuide_begin="751dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline5J4"
+                app:layout_constraintGuide_begin="772dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline6J4"
+                app:layout_constraintGuide_begin="595dp"
+                android:orientation="horizontal"/>
+
+        <TextView
+                android:id="@+id/tvTituloJ4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/nomJ4"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline2J4"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guidelineJ4"/>
+
+        <TextView
+                android:id="@+id/tvCategoriaJ4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/catJ4"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline3J4"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline2J4"/>
+
+        <TextView
+                android:id="@+id/tvClasificacionJ4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/clasJ4"
+                app:layout_constraintBottom_toTopOf="@+id/guideline4J4"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+        <RatingBar
+                android:id="@+id/rbCalificacionJ4"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline4J4"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline3J4"/>
+
+        <ImageView
+                android:id="@+id/imgPortadaJ4"
+                android:layout_width="105dp"
+                android:layout_height="138dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline5J4"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline6J4"
+                app:srcCompat="@drawable/cyberpunk"/>
+
+        <!-- Juego 5 -->
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guidelineJ5"
+                app:layout_constraintGuide_begin="816dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline2J5"
+                app:layout_constraintGuide_begin="856dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline3J5"
+                app:layout_constraintGuide_begin="890dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline4J5"
+                app:layout_constraintGuide_begin="944dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline5J5"
+                app:layout_constraintGuide_begin="965dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline6J5"
+                app:layout_constraintGuide_begin="788dp"
+                android:orientation="horizontal"/>
+
+        <TextView
+                android:id="@+id/tvTituloJ5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/nomJ5"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline2J5"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guidelineJ5"/>
+
+        <TextView
+                android:id="@+id/tvCategoriaJ5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/catJ5"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline3J5"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline2J5"/>
+
+        <TextView
+                android:id="@+id/tvClasificacionJ5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/clasJ5"
+                app:layout_constraintBottom_toTopOf="@+id/guideline4J5"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+        <RatingBar
+                android:id="@+id/rbCalificacionJ5"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline4J5"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline3J5"/>
+
+        <ImageView
+                android:id="@+id/imgPortadaJ5"
+                android:layout_width="105dp"
+                android:layout_height="138dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline5J5"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline6J5"
+                app:srcCompat="@drawable/remnant"/>
+
+        <!-- Juego 6 -->
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guidelineJ6"
+                app:layout_constraintGuide_begin="1009dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline2J6"
+                app:layout_constraintGuide_begin="1049dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline3J6"
+                app:layout_constraintGuide_begin="1083dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline4J6"
+                app:layout_constraintGuide_begin="1137dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline5J6"
+                app:layout_constraintGuide_begin="1158dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline6J6"
+                app:layout_constraintGuide_begin="981dp"
+                android:orientation="horizontal"/>
+
+        <TextView
+                android:id="@+id/tvTituloJ6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/nomJ6"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline2J6"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guidelineJ6"/>
+
+        <TextView
+                android:id="@+id/tvCategoriaJ6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/catJ6"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline3J6"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline2J6"/>
+
+        <TextView
+                android:id="@+id/tvClasificacionJ6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/clasJ6"
+                app:layout_constraintBottom_toTopOf="@+id/guideline4J6"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+        <RatingBar
+                android:id="@+id/rbCalificacionJ6"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline4J6"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline3J6"/>
+
+        <ImageView
+                android:id="@+id/imgPortadaJ6"
+                android:layout_width="105dp"
+                android:layout_height="138dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline5J6"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline6J6"
+                app:srcCompat="@drawable/rdr2"/>
+
+        <!-- Juego 7 -->
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guidelineJ7"
+                app:layout_constraintGuide_begin="1202dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline2J7"
+                app:layout_constraintGuide_begin="1242dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline3J7"
+                app:layout_constraintGuide_begin="1276dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline4J7"
+                app:layout_constraintGuide_begin="1330dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline5J7"
+                app:layout_constraintGuide_begin="1351dp"
+                android:orientation="horizontal"/>
+
+        <androidx.constraintlayout.widget.Guideline
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/guideline6J7"
+                app:layout_constraintGuide_begin="1174dp"
+                android:orientation="horizontal"/>
+
+        <TextView
+                android:id="@+id/tvTituloJ7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/nomJ7"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline2J7"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guidelineJ7"/>
+
+        <TextView
+                android:id="@+id/tvCategoriaJ7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/catJ7"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline3J7"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline2J7"/>
+
+        <TextView
+                android:id="@+id/tvClasificacionJ7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginRight="8dp"
+                android:text="@string/clasJ7"
+                app:layout_constraintBottom_toTopOf="@+id/guideline4J7"
+                app:layout_constraintRight_toRightOf="parent"/>
+
+        <RatingBar
+                android:id="@+id/rbCalificacionJ7"
+                style="@style/Widget.AppCompat.RatingBar.Indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline4J7"
+                app:layout_constraintLeft_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline3J7"/>
+
+        <ImageView
+                android:id="@+id/imgPortadaJ7"
+                android:layout_width="105dp"
+                android:layout_height="138dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toTopOf="@+id/guideline5J7"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/guideline7"
+                app:layout_constraintTop_toTopOf="@+id/guideline6J7"
+                app:srcCompat="@drawable/dbh"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
